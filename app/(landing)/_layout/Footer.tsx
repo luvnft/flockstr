@@ -103,7 +103,7 @@ export default function Footer() {
           ))}
         </div> */}
         <p className="mt-10 text-center text-sm leading-5 text-gray-500 sm:mt-6">
-          &copy; {new Date().getFullYear()} Flockstr
+          &copy; {new Date().getFullYear()} Eventstr
         </p>
       </div>
     </footer>

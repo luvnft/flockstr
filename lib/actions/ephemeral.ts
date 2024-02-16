@@ -104,7 +104,7 @@ async function generateTags(mainSigner: NDKSigner, opts: ISaveOpts = {}) {
   const mainUser = await mainSigner.user();
   const tags = [
     ["p", mainUser.pubkey],
-    ["client", "flockstr"],
+    ["client", "eventstr", "flockstr"],
   ];
   if (opts.associatedEvent) {
     const encodedEvent = opts.associatedEvent.encode();

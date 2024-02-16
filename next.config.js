@@ -17,6 +17,7 @@ const nextConfig = {
       "t2.gstatic.com",
       "www.google.com",
       "whop.com",
+      "imgur.com",
       "flockstr.s3.amazonaws.com",
     ],
   },

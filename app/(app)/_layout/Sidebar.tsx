@@ -49,10 +49,10 @@ type NavigationElement = {
 const flockstrEvent = {
   created_at: 1697736945,
   content:
-    "Officially announcing Flockstr. Check it out at https://flockstr.com",
+    "Officially announcing Eventstr. Check it out at https://eventstr.luvnft.com",
   tags: [
-    ["r", "https://flockstr.com"],
-    ["client", "flockstr"],
+    ["r", "https://eventstr.luvnft.com"],
+    ["client", "eventstr", "flockstr"],
   ],
   kind: 1,
   pubkey: "17717ad4d20e2a425cda0a2195624a0a4a73c4f6975f16b1593fc87fa46f2d58",
@@ -93,12 +93,12 @@ export default function Sidebar() {
       onClick: () =>
         modal?.show(
           <ZapPickerModal
-            title="Help Support Flockstr!"
+            title="Help Support Eventstr!"
             event={flockstrEvent}
           />,
         ),
       name: "zap",
-      label: "Zap Flockstr",
+      label: "Zap Eventstr",
       icon: HiOutlineLightningBolt,
       type: "button",
       active: true,

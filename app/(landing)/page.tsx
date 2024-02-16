@@ -60,9 +60,9 @@ export default function LandingPage() {
                   <br /> Only on Nostr.
                 </h1>
                 <p className="relative mt-6 text-lg leading-8 text-zinc-600 sm:max-w-md lg:max-w-none">
-                  We're bringing events and meet ups onto Nostr. The days of
-                  walled gardens are coming to an end. It's time to truly own
-                  your events, no-longer dependent on an external company.
+                Eventstr is the merger of events with Nostr Bitcoin tech 
+                that allows you to truly own your events, and no longer 
+                dependent on an external company.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <Link href="/explore">
@@ -83,8 +83,8 @@ export default function LandingPage() {
                 <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                   <div className="relative">
                     <img
-                      src="https://flockstr.s3.amazonaws.com/uploads/Screenshot+2023-11-04+at+11.45.48+AM.png"
-                      alt=""
+                      src="https://i.imgur.com/RpEf2Il.png"
+                      alt="LUV NFT AWARDS 2024"
                       className="aspect-[5/7] w-full rounded-xl bg-zinc-900/5 object-cover shadow-lg"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-zinc-900/10" />
@@ -93,16 +93,16 @@ export default function LandingPage() {
                 <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                   <div className="relative">
                     <img
-                      src="https://flockstr.s3.amazonaws.com/uploads/Screenshot+2023-11-04+at+11.44.49+AM.png"
-                      alt="Nostrville"
+                      src="https://i.imgur.com/DTCx6IO.png"
+                      alt="ATL CLUB 5D"
                       className="aspect-[5/7] w-full rounded-xl bg-zinc-900/5 object-cover shadow-lg"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-zinc-900/10" />
                   </div>
                   <div className="relative">
                     <img
-                      src="https://flockstr.s3.amazonaws.com/uploads/Screenshot+2023-11-04+at+11.45.00+AM.png"
-                      alt=""
+                      src="https://i.imgur.com/DF04erd.png"
+                      alt="TOKENOPOLY"
                       className="aspect-[5/7] w-full rounded-xl bg-zinc-900/5 object-cover shadow-lg"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-zinc-900/10" />
@@ -111,16 +111,16 @@ export default function LandingPage() {
                 <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                   <div className="relative">
                     <img
-                      src="https://flockstr.s3.amazonaws.com/uploads/Screenshot+2023-11-04+at+11.45.55+AM.png"
-                      alt="Pubkey"
+                      src="https://i.imgur.com/CH6tsKj.png"
+                      alt="What3bars"
                       className="aspect-[5/7] w-full rounded-xl bg-zinc-900/5 object-cover shadow-lg"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-zinc-900/10" />
                   </div>
                   <div className="relative">
                     <img
-                      src="https://flockstr.s3.amazonaws.com/uploads/Screenshot+2023-11-04+at+11.45.08+AM.png"
-                      alt=""
+                      src="https://i.imgur.com/7RJVAad.png"
+                      alt="ONE LUV"
                       className="aspect-[5/7] w-full rounded-xl bg-zinc-900/5 object-cover shadow-lg"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-zinc-900/10" />

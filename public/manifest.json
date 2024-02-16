@@ -4,8 +4,8 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/explore",
-  "name": "Flockstr",
-  "short_name": "Flockstr",
+  "name": "Eventstr",
+  "short_name": "Eventstr",
   "icons": [
     {
       "src": "/icon-192x192.png",

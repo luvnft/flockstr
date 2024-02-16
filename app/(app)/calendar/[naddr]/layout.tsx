@@ -15,7 +15,7 @@ export async function generateMetadata(
   const { data, type } = nip19.decode(identifier);
   if (type !== "naddr") {
     return {
-      title: "Flockstr Calendar",
+      title: "Eventstr Calendar",
       openGraph: {
         images: previousImages,
       },
@@ -28,14 +28,14 @@ export async function generateMetadata(
   // optionally access and extend (rather than replace) parent metadata
   if (!event) {
     return {
-      title: "Flockstr Calendar",
+      title: "Eventstr Calendar",
       openGraph: {
         images: previousImages,
       },
     };
   }
 
-  const title = `${getTagValues("name", event.tags as string[][])} | Flockstr`;
+  const title = `${getTagValues("name", event.tags as string[][])} | Eventstr`;
   const images =
     getTagValues("image", event.tags as string[][]) ??
     getTagValues("banner", event.tags as string[][]) ??

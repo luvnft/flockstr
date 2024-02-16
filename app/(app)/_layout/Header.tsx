@@ -17,7 +17,7 @@ export default function Header() {
           >
             <Logo className="h-[30px] w-[30px] text-primary sm:hidden" />
             <div className="font-condensed text-xl font-semibold text-foreground xl:hidden">
-              Flockstr
+              Eventstr
             </div>
           </Link>
           <div className="flex grow items-center justify-end gap-x-4 xl:justify-between">

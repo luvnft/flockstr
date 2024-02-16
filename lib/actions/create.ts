@@ -63,7 +63,7 @@ export async function createEventHandler(
   }
   const eventToPublish = new NDKEvent(ndk, {
     ...event,
-    tags: [...event.tags, ["client", "flockstr"]],
+    tags: [...event.tags, ["client", "eventstr", "flockstr"]],
     pubkey,
     created_at: unixTimeNowInSeconds(),
   } as NostrEvent);
@@ -85,7 +85,7 @@ export async function createEventHandler(
       kind: 3745,
       tags: [
         ["kind", event.kind.toString()],
-        ["client", "flockstr"],
+        ["client", "eventstr", "flockstr"],
       ],
       pubkey,
     } as NostrEvent);
@@ -106,7 +106,7 @@ export async function createEventHandler(
           tags: [
             ["p", subscriber],
             ["e", newEvent.id],
-            ["client", "flockstr"],
+            ["client", "eventstr", "flockstr"],
           ],
           pubkey: user.pubkey,
         } as NostrEvent);
@@ -213,7 +213,7 @@ async function generateEvent(
     const newEvent = new NDKEvent(ndk, {
       content: _value || "",
       kind: 1,
-      tags: [...event.tags, ["client", "flockstr"]],
+      tags: [...event.tags, ["client", "eventstr", "flockstr"]],
       pubkey: user.pubkey,
     } as NostrEvent);
     console.log("Event to create", newEvent);
@@ -332,7 +332,7 @@ export async function createCalendarEvent(
   }
   const eventToPublish = new NDKEvent(ndk, {
     ...event,
-    tags: [...event.tags, ["client", "flockstr"]],
+    tags: [...event.tags, ["client", "eventstr", "flockstr"]],
     pubkey,
     created_at: unixTimeNowInSeconds(),
   } as NostrEvent);
@@ -353,7 +353,7 @@ export async function createCalendarEvent(
       kind: 3745,
       tags: [
         ["kind", event.kind.toString()],
-        ["client", "flockstr"],
+        ["client", "eventstr", "flockstr"],
       ],
       pubkey,
     } as NostrEvent);
@@ -374,7 +374,7 @@ export async function createCalendarEvent(
           tags: [
             ["p", subscriber],
             ["e", newEvent.id],
-            ["client", "flockstr"],
+            ["client", "eventstr", "flockstr"],
           ],
           pubkey: user.pubkey,
         } as NostrEvent);

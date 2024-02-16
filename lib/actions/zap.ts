@@ -202,7 +202,7 @@ async function sendCodesToNewUsers(
         tags: [
           ["p", user],
           ["e", event],
-          ["client", "flockstr"],
+          ["client", "eventstr", "flockstr"],
         ],
         pubkey: delegate.pubkey,
       } as NostrEvent);

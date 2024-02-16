@@ -51,7 +51,7 @@ const RenderText = ({ text }: { text?: string }) => {
           );
         } else if (currentValue.includes(".mp4")) {
           specialElement = <VideoUrl className="my-1" url={currentValue} />;
-        } else if (["m", "i", "image", "flockstr", "cdn"].includes(subdomain)) {
+        } else if (["m", "i", "image", "eventstr", "flockstr", "cdn"].includes(subdomain)) {
           specialElement = <ImageUrl className="my-1" url={currentValue} />;
         } else if (["v", "video"].includes(subdomain)) {
           specialElement = <VideoUrl className="my-1" url={currentValue} />;

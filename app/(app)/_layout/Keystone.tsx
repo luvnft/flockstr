@@ -9,7 +9,7 @@ export default function Keystone() {
       >
         <Logo className="h-[30px] w-[30px]" />
         <div className="hidden font-condensed text-xl font-semibold text-foreground xl:inline-flex">
-          Flockstr
+          Eventstr
         </div>
       </Link>
     </div>
